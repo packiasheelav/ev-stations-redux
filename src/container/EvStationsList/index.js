@@ -52,9 +52,6 @@ class EvStationsList extends Component {
 		script.async = true;
 		ref.parentNode.insertBefore(script, ref);
 	}
-	// this.state.dataStations.map(dataStation =>
-	// 	this.createMarker(dataStation, this.GetStatusByStationId(dataStation.id))
-	// );
 
 	render() {
 		const { stations } = this.props.stations;
@@ -68,7 +65,6 @@ class EvStationsList extends Component {
 
 EvStationsList.propTypes = {
 	getStations: PropTypes.func.isRequired
-	//   student: PropTypes.object.isRequired
 };
 
 const mapStateToProps = state => ({
