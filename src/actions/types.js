@@ -1,0 +1,2 @@
+export const GET_STATIONS = 'GET_STATIONS';
+export const STATIONS_LOADING = 'STATIONS_LOADING';
